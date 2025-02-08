@@ -1,0 +1,140 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1A1A1D; /* Hitam kebiruan */
+    color: #F5F5F5; /* Putih soft */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container utama */
+.container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #D4AF37, #B8860B); /* Gradasi emas */
+    color: #1A1A1D;
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+/* Heading */
+h1 {
+    font-size: 32px;
+    color: #FFD700; /* Warna emas */
+    margin-top: 20px;
+}
+
+/* Paragraf */
+p {
+    font-size: 18px;
+    color: #E5E5E5;
+}
+
+/* Ikon */
+.construction-icon {
+    font-size: 60px;
+    color: #D4AF37;
+    animation: bounce 2s infinite;
+}
+
+/* Tombol Contact */
+.contact {
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #D4AF37, #B8860B);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.contact:hover {
+    background: linear-gradient(45deg, #FFD700, #DAA520);
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.8);
+}
+
+.contact a {
+    text-decoration: none;
+    color: #1A1A1D;
+}
+
+/* Form Notifikasi */
+.notify-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.notify-form input {
+    padding: 12px;
+    width: 70%;
+    border: 2px solid #D4AF37;
+    background-color: #2A2A2D;
+    color: #F5F5F5;
+    border-radius: 5px 0 0 5px;
+}
+
+.notify-form button {
+    background: linear-gradient(45deg, #D4AF37, #B8860B);
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.notify-form button:hover {
+    background: linear-gradient(45deg, #FFD700, #DAA520);
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+}
+
+/* Sosial Media */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #FFD700;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #B8860B;
+    opacity: 0.8;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
